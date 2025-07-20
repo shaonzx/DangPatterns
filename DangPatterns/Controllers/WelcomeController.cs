@@ -18,9 +18,9 @@ namespace DangPatterns.Controllers
         [HttpGet]
         public string Get()
         {
-            _logger.LogInformation("Welcome executed with success!");
+            /*_logger.LogInformation("Welcome executed with success!");
             _logger.LogCritical("Sample Critical issue");
-            _logger.LogError("Sample Error!");
+            _logger.LogError("Sample Error!");*/
 
             return "This is the thing you are looking for";
         }
